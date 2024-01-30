@@ -1,0 +1,115 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #edebf6;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  gap: 0;
+  padding: 80px;
+  width: 100%;
+  height: 100vh;
+}
+
+.imageContainer {
+  height: calc(100%-40px);
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #ffffff;
+  padding: 80px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.name {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  width: 100%;
+}
+
+.fname,
+.lname {
+  width: 100%;
+}
+
+label {
+  margin-bottom: 8px;
+}
+
+.headerText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  color: #694bdb;
+  padding: 40px 0px;
+}
+
+.firstText {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.secondText {
+  font-size: medium;
+  font-weight: 600;
+}
+
+input,
+textarea {
+  margin-bottom: 16px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #3f27d7;
+  color: #fff;
+  padding: 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.signInBtnContainer {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+
+.signInBtn {
+  border: 2px solid #3f27d7;
+  padding: 2px 10px;
+  width: fit-content;
+  color: #3f27d7;
+  font-size: small;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #5d46f1;
+}
+
+.signInBtn:hover {
+  background-color: #5d46f1;
+  color: white;
+}

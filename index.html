@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Contact Form</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="imageContainer">
+        <img src="formImage.jpg" height="930px" width="800px" />
+      </div>
+      <div class="formContainer">
+        <div class="signInBtnContainer"><div class="signInBtn">SIGN IN</div></div>
+        <form id="contactForm">
+          <div class="headerText">
+            <span class="firstText">Explore & Experience</span>
+            <span class="secondText"
+              >Get onto your most comfortable journey yet. All the way up</span
+            >
+          </div>
+          <div class="name">
+            <input
+              class="fname"
+              type="text"
+              id="fname"
+              name="fname"
+              required
+              placeholder="First Name"
+            />
+            <input
+              class="lname"
+              type="text"
+              id="lname"
+              name="lname"
+              required
+              placeholder="Last Name"
+            />
+          </div>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            required
+            placeholder="Email"
+          />
+          <input
+            type="username"
+            id="username"
+            name="username"
+            required
+            placeholder="Username"
+          />
+          <input
+            type="password"
+            id="password"
+            name="password"
+            required
+            placeholder="Password"
+          />
+          <input
+            type="password"
+            id="confirmPassword"
+            name="confirmPassword"
+            required
+            placeholder="Confirm Password"
+          />
+          <button type="submit">Get Started</button>
+        </form>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
